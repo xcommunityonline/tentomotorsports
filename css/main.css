@@ -3,9 +3,9 @@ html{
     top: 0px;
     left: 0px;
     padding: 0px;
-    overflow: hidden;
     width: 100vw;
     height: 100vh;
+    overflow-x:hidden;
 }
 body{
     margin: 0 auto;
@@ -13,17 +13,14 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: rgb(36, 36, 36);
-    background: rgb(2,0,36);
-    background: linear-gradient(62deg, rgba(2,0,36,1) 0%, rgba(18,18,18,1) 0%, rgba(47,47,47,1) 100%);
     padding-top:10%;
-    box-shadow: inset rgba(0, 0, 0, 0.2) 0px 7px 100px 0px;
     
 }
 .container{
     float: left;
     width: 40%;
     color: white;
-    
+    margin-top:150px;
 }
 .spacer{
     float: left;
@@ -34,7 +31,7 @@ body{
     text-align: right;
 }
 #footer{
-    position:absolute;
+    position:fixed;
     bottom: 10px;
     left: 10px;
     color: rgba(255,255,255,0.3);
@@ -49,6 +46,10 @@ body{
     color: white;
     font-size: 24px;
 
+}
+#logo img{
+    width: 20%;
+    min-width: 200px;
 }
 #carousel{
     border-radius:4px;
