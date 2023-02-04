@@ -31,11 +31,10 @@ body{
     text-align: right;
 }
 #footer{
-    position:fixed;
-    bottom: 10px;
-    left: 10px;
-    color: rgba(255,255,255,0.3);
-    font-size: 10px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
 }
 #logo{
     margin: 0 auto;
